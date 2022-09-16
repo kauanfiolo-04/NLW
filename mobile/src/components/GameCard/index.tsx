@@ -1,5 +1,6 @@
 import { LinearGradient } from 'expo-linear-gradient';
 import { TouchableOpacity, TouchableOpacityProps,ImageBackground, ImageSourcePropType } from 'react-native';
+import { THEME } from '../../theme';
 
 import { styles } from './styles';
 
@@ -23,7 +24,7 @@ export function GameCard({data, ...rest}:Props) {
         />
 
         <LinearGradient 
-        colors={THEME.COLOR.FOOTER}
+        colors={THEME.COLORS.FOOTER}
         />
 
     </TouchableOpacity>
